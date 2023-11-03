@@ -1,0 +1,16 @@
+COMMAND                                             USECASE
+
+docker-compose down --rmi all   
+
+
+docker-compose up               Reads the Docker Compose Configuration (docker-compose.yml file), Builds Images (if needed),
+                                Creates and starts containers, configures networking, exposes ports (if specified),
+                                starts the application.
+
+
+INSTRUCTIONS:
+
+1. Start with an OS.
+2. Install Node
+3. Copy application files
+4. Run node app.js
